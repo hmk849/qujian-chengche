@@ -1,0 +1,8 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+:root{--bg1:#e9eef7;--bg2:#f6e9e4;--ink:#14161b;--sub:#5b6270;--glass:rgba(255,255,255,.55);--edge:rgba(255,255,255,.7);--acc:#0a84ff}
+@media(prefers-color-scheme:dark){:root{--bg1:#0b0e14;--bg2:#1a1424;--ink:#f2f4f8;--sub:#9aa3b5;--glass:rgba(40,44,56,.5);--edge:rgba(255,255,255,.12);--acc:#64a8ff}}
+body{color:var(--ink);background:radial-gradient(900px 600px at 10% -10%,var(--bg2),transparent),var(--bg1);min-height:100dvh;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC","Helvetica Neue",sans-serif}
+.glass{background:var(--glass);backdrop-filter:blur(24px) saturate(1.6);-webkit-backdrop-filter:blur(24px) saturate(1.6);border:1px solid var(--edge);box-shadow:0 8px 32px rgba(0,0,0,.08),inset 0 1px 0 var(--edge)}
+.sub{color:var(--sub)}
+button:focus-visible,textarea:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}

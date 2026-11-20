@@ -1,0 +1,23 @@
+# xray-us 订阅（Clash 格式）——仅供 Hann 本人使用，文件含节点 UUID，别公开转发
+proxies:
+  - name: "xray-us"
+    type: vless
+    server: xray-production-e73cfe82.up.railway.app
+    port: 443
+    uuid: 78419671-1456-4a36-b6db-341048bebdf3
+    tls: true
+    servername: xray-production-e73cfe82.up.railway.app
+    network: ws
+    ws-opts:
+      path: /xray
+      headers:
+        Host: xray-production-e73cfe82.up.railway.app
+
+proxy-groups:
+  - name: "PROXY"
+    type: select
+    proxies:
+      - "xray-us"
+
+rules:
+  - MATCH,PROXY

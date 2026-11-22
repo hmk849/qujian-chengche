@@ -18,13 +18,13 @@ proxies:
     tls: true
   - name: "UR-US4"
     type: http
-    server: 06h08h128jtgn0jetvbu8c9sbv2115amj5ro2a415scrq48iomlsh2euvo.fireside.bringyour.com
-    port: 7167
+    server: 06h08hes1317fbv1g4mcbf7l15rb85b4jiahf1dn819nrlqa9gv5g8m71k.fireside.bringyour.com
+    port: 7137
     tls: true
   - name: "UR-US5"
     type: http
-    server: 06h08h1cbao1gvqhk53hcs8uu4l1gl8bbnbb864b5on7sq4eulfm380prg.fireside.bringyour.com
-    port: 7137
+    server: 06h08hf5ppk5flu8t8tdk1dkdkovcgs3vkl67purjacva0mahdehg6sndg.fireside.bringyour.com
+    port: 7167
     tls: true
 
 proxy-groups:

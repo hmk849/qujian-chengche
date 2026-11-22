@@ -3,28 +3,28 @@
 proxies:
   - name: "UR-US1"
     type: http
-    server: 06h08fqhcm6bbpi7a58jokrqh1hg31iiaoadt2522pfmfgudegl14pufko.crisp.bringyour.com
+    server: 06h08fqs9l4v1llk67t4voqblpv7d34j055jn6rsrq5va8gt7cpuh52tug.crisp.bringyour.com
     port: 7167
     tls: true
   - name: "UR-US2"
     type: http
-    server: 06h08fqs9l4v1llk67t4voqblpv7d34j055jn6rsrq5va8gt7cpuh52tug.crisp.bringyour.com
-    port: 7167
-    tls: true
-  - name: "UR-US3"
-    type: http
     server: 06h08l6fem1eq288gt2tk1ir1sth0pejkh8mtkahlah0h88c1h2mnih050.crisp.bringyour.com
     port: 7173
     tls: true
-  - name: "UR-US4"
+  - name: "UR-US3"
     type: http
     server: 06h08leuu44e2ejt0ad9q5b21615rup797lf0podsouqpaa2ua64tu72jc.crisp.bringyour.com
     port: 7167
     tls: true
-  - name: "UR-US5"
+  - name: "UR-US4"
     type: http
     server: 06h08ll8m5gca0o6vqvdbaodb9ugea16hdabi9jnp7hh863gjtme7numq0.crisp.bringyour.com
     port: 7125
+    tls: true
+  - name: "UR-US5"
+    type: http
+    server: 06h08m3m3v9tv9q3b4in9a2qi58drm80u3j6vk68bqdqleo4gdikr257e0.fireside.bringyour.com
+    port: 7119
     tls: true
 
 proxy-groups:

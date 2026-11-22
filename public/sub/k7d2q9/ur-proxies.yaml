@@ -13,18 +13,18 @@ proxies:
     tls: true
   - name: "UR-SG1"
     type: http
-    server: 06h08k1p4c3g9e17704pgkv7mcs0cvb29fpcg3ig5cghbiog5vusd26mf4.crisp.bringyour.com
-    port: 7131
+    server: 06h08kej6dvaa81hftdqk9o3bf1d80nqe8lscb4bh0sb3srp37dg32gip8.fireside.bringyour.com
+    port: 7167
     tls: true
   - name: "UR-SG2"
     type: http
-    server: 06h08k23003phiejvgbc5lttgq67189dp4uom0qf28ph7f4f3da2setkq8.crisp.bringyour.com
-    port: 7119
+    server: 06h08ket0rldch4lt6p8ub8v9vvig01oo50r5jp2r17uhft7u6b3otdu3g.fireside.bringyour.com
+    port: 7125
     tls: true
   - name: "UR-SG3"
     type: http
-    server: 06h08k2dlj46h81ia2u9nsjioird2ep94e48jojk6bc879ek1hh4u481c0.fireside.bringyour.com
-    port: 7155
+    server: 06h08kf70qhnhi2ub23v817fccrovqot3cc8h91ps9gg3ma34tj46isqek.fireside.bringyour.com
+    port: 7143
     tls: true
 
 proxy-groups:

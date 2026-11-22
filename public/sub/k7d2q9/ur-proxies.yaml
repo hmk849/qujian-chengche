@@ -8,8 +8,8 @@ proxies:
     tls: true
   - name: "UR-FR"
     type: http
-    server: 06h08evldahukla4mq2f0hij2p42gs2ohm3squh5lgnrsjprlis9i3crc4.fireside.bringyour.com
-    port: 7119
+    server: 06h08fa66qtovos3qicqt4fclnu83iggnkbfa06lsrh0bvejl5oes9s0ko.fireside.bringyour.com
+    port: 7155
     tls: true
   - name: "UR-NL"
     type: http

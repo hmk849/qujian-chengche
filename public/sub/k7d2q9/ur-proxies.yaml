@@ -1,6 +1,5 @@
 # ur.io 免费住宅代理订阅（Clash 格式）——仅供 Hann 本人使用，文件含代理凭证，别公开转发
-# 2026-11-23 验过：5 个出口全是住宅 ISP（DE Vodafone / FR Orange / NL KPN / GB BT / US AT&T）
-# 注意：免费档出口 IP 不固定，测时干净不代表永远干净；每天 30GB 流量；账号最多 5 个活跃代理
+# 注意：免费档出口 IP 不固定、且不同客户端看到的出口可能不同，干净是测时快照；每天 30GB 流量；账号最多 5 个活跃代理
 proxies:
   - name: "UR-DE"
     type: http
@@ -9,8 +8,8 @@ proxies:
     tls: true
   - name: "UR-FR"
     type: http
-    server: 06h088jas193ibqt2kd3v27u4952u3j038db8jiq5k60uu1a9jm1aeojkk.crisp.bringyour.com
-    port: 7173
+    server: 06h08em9ih8pskrfndnjfhf16hvpivsfqddlh39eu91lsq8orssqi9pde0.crisp.bringyour.com
+    port: 7167
     tls: true
   - name: "UR-NL"
     type: http
@@ -19,8 +18,8 @@ proxies:
     tls: true
   - name: "UR-GB"
     type: http
-    server: 06h08asl1vsjujc3rid0et4frdsr9g3496lve25q19c5onlvvlluacd5f8.fireside.bringyour.com
-    port: 7155
+    server: 06h08empstar3chdnpsg2884mm9baallp2t9pcs8pgeq3i0o9t30felfk0.crisp.bringyour.com
+    port: 7131
     tls: true
   - name: "UR-US"
     type: http
